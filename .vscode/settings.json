@@ -1,0 +1,11 @@
+{
+    "background.enabled": true,
+    "background.fullscreen": {
+
+        "image": "https://wallpapercave.com/dwp1x/wp6213933.jpg",
+        "opacity": 0.94,
+        "size": "cover",
+        "position": "center",
+        "interval": 0
+    }
+}
