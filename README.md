@@ -38,4 +38,4 @@ If you are interested in contributing to the project, please contact Abderox or 
 If you encounter any issues or have questions, please contact Abderox for support.
 
 ## License
-AgileEx is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+AgileEx is licensed under the MIT License. See [LICENSE](./github/license.txt) for more information.
