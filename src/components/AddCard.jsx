@@ -8,10 +8,8 @@ const AddCard = ({ addCard }) => {
 
     return (
 
-        <Flex flex="3" padding="5" flexDirection="column" minH="10rem">
-            <Text fontSize="xl" fontWeight="bold" mb="2">
-                Card title
-            </Text>
+        <Flex flex="3" padding="5"  >
+            
             <Flex
                 flex="1"
                 bg="white"

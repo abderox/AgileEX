@@ -8,11 +8,14 @@ const KanbanLane = ({ title, items, color }) => {
         id: title,
     });
 
+    const countItems = items?.length || 0;
 
 
     return (
 
-        <Flex flex="3" padding="5" flexDirection="column" minH="10rem">
+        <Flex flex="3" padding="5" flexDirection="column" minH="10rem" height={
+            countItems > 0 ? "auto" : "10rem"
+        }>
             <Text fontSize="xl"  borderRadius="md" p={1} fontWeight="bold" bg={`${color}.500`} mb="2" color={
                  "white"
             }>
@@ -26,7 +29,7 @@ const KanbanLane = ({ title, items, color }) => {
                 boxShadow="md"
                 flexDirection="column"
                 p={2}
-            
+
             >
                 {items.map(({title:item}, index) => (
                     
