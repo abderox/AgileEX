@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) [year] [MOUZAFIR ABDELHADI]
+Copyright (c) [2023] [MOUZAFIR ABDELHADI]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
