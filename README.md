@@ -1,5 +1,13 @@
 # AgileEx
 
+<p
+    align="center"
+>
+    <img src="./github/logo.png" />
+
+</p>
+
+
 AgileEx is an application built with Electron, React, and DnD-Kit that allows users to create and manage tasks in a Kanban board style. It allows users to easily visualize their workflow and prioritize tasks by dragging and dropping them within the board.
 
 ## Features
