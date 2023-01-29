@@ -6,8 +6,12 @@ import { CSS } from "@dnd-kit/utilities";
 const KanbanCard = ({ title,index,parent }) => {
 
     const { attributes, listeners, setNodeRef, transform, transition } = useDraggable({
-        id: `card-${index}`,
-        data: { parent }
+        id: `card-${title}`,
+        data: {
+            title,
+            index,
+            parent
+        }
     });
 
     const style = {
@@ -24,6 +28,7 @@ const KanbanCard = ({ title,index,parent }) => {
             {...listeners}
             bg="white"
             p={2}
+            mt={1}
             borderRadius="md"
             boxShadow="md"
             w="100%"
