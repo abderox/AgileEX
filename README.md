@@ -13,7 +13,7 @@ AgileEx is an application built with Electron, React, and DnD-Kit that allows us
 ## Features
 - Create and manage tasks in a Kanban board style
 - Drag and drop tasks to prioritize and visualize workflow
-- Built with Electron, React, and DnD-Kit
+- Built with Electron, React, and DnD-Kit (Credit [LogRocket](https://logrocket.com/))
 - Developed with love by Abderox
 
 ## Getting Started
